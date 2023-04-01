@@ -1,0 +1,56 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-container{
+    height: 100vh;
+    border: 1px solid black;
+    text-align: center;
+}
+.title{
+    color: red;
+}
+.title-container{
+    height: 20vh;
+    width: 88%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+
+
+}
+.logo{
+    height: 100%;
+}
+.title-text{
+    text-align: center;
+    width: 100%;
+}
+p{
+    font-weight: 600;
+}
+td{
+    font-weight: 100;
+}
+.student-details-container{
+    height: 13vh;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.student-details-table{
+    width: 100%;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.marks-table{
+    width: 100%;
+    line-height: 25px;
+}
+.result-container{
+    display: flex;
+    justify-content: space-around;
+}
